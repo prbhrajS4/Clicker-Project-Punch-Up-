@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>comp-2452-project</title>
+  </head>
+  <body>
+    <div class="top-text">Punch Up!</div>
+    <div id="app"></div>
+    <div id = "upgrades"></div>
+    <div id = "buildings"></div>
+    <!-- <button id = "punch">Punch</button> -->
+    <script type="module" src="/src/main.ts"></script>
+    <script
+  src="https://cdn.jsdelivr.net/npm/@electric-sql/pglite-repl/dist-webcomponent/Repl.js"
+  type="module"
+></script>
+<div class="repl-box">
+  <details>
+    <summary>Show / Hide REPL</summary>
+    <pglite-repl id="repl"></pglite-repl>
+  </details>
+</div>
+<script type="module">
+  import db from './src/model/connection.ts'
+  // Retrieve the Repl element
+  const repl = document.getElementById('repl')
+
+  // REPL to your PGlite instance
+  repl.pg = db()
+</script>
+
+  </body>
+</html>

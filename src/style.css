@@ -1,0 +1,232 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+.top-text {
+  font-family: Stencil Std, fantasy;
+  position: fixed; 
+  top: 0;         
+  left: 50%;      
+  transform: translateX(-50%); 
+  padding: 10px 20px;
+  font-size: 30px;
+  z-index: 1000;   
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-image: url("BG2.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-color: rgb(72, 8, 247);
+  cursor: url("punch2.png"), auto;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+#bag:active img{
+  content: url("bag-hit.png");
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.vanilla:hover {
+  filter: drop-shadow(0 0 2em #3178c6aa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+#login-screen{
+    border: 2px solid #444;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(10px); 
+    text-align: center;
+}
+
+.box {
+    border: 2px solid #444;
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.5); 
+    backdrop-filter: blur(10px); 
+    text-align: center;
+}
+.game-box{
+  background: transparent;
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.upgrades-box,
+.buildings-box {
+    width: 350px;
+    max-height: 600px;
+}
+
+#bag {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+#bag img {
+  display: block;
+  width: 350px;
+  height: auto;
+  
+}
+
+#bag:focus {
+  outline: none;
+}
+
+#bag:active {
+  transform: scale(0.95);
+}
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button img {
+    width: 24px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+ul li {
+    background: #0c0c0c;
+    margin: 5px 0;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.repl-box {
+    width: 350px;
+    margin: 20px auto; 
+    padding: 15px;
+    border: 2px solid #333;
+    border-radius: 12px;
+    background-color: #7a7676b7;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.repl-box summary {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+pglite-repl {
+    display: block;
+    width: 100%;
+    min-height: 300px;
+    margin-top: 10px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}

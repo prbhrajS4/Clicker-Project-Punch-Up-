@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1773965613342" clover="3.2.0">
+  <project timestamp="1773965613342" name="All files">
+    <metrics statements="228" coveredstatements="198" conditionals="58" coveredconditionals="36" methods="72" coveredmethods="59" elements="358" coveredelements="293" complexity="0" loc="228" ncloc="228" packages="6" files="14" classes="14"/>
+    <package name="Comp-2452-project">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="create-tables.sql" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\create-tables.sql">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="Comp-2452-project.src">
+      <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+      <file name="assertions.ts" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\src\assertions.ts">
+        <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="2" count="363" type="cond" truecount="1" falsecount="1"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="Comp-2452-project.src.model">
+      <metrics statements="93" coveredstatements="87" conditionals="26" coveredconditionals="15" methods="27" coveredmethods="25"/>
+      <file name="connection.ts" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\src\model\connection.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="8" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="14" count="87" type="stmt"/>
+      </file>
+      <file name="exceptions.ts" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\src\model\exceptions.ts">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+      <file name="game.ts" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\src\model\game.ts">
+        <metrics statements="87" coveredstatements="81" conditionals="24" coveredconditionals="14" methods="26" coveredmethods="24"/>
+        <line num="21" count="14" type="stmt"/>
+        <line num="24" count="14" type="stmt"/>
+        <line num="25" count="14" type="stmt"/>
+        <line num="26" count="14" type="stmt"/>
+        <line num="27" count="14" type="stmt"/>
+        <line num="28" count="14" type="stmt"/>
+        <line num="29" count="14" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+        <line num="36" count="1" type="stmt"/>
+        <line num="37" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="45" count="3" type="stmt"/>
+        <line num="46" count="3" type="stmt"/>
+        <line num="47" count="3" type="stmt"/>
+        <line num="48" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="49" count="2" type="stmt"/>
+        <line num="51" count="3" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="57" count="2" type="stmt"/>
+        <line num="58" count="2" type="stmt"/>
+        <line num="62" count="2" type="stmt"/>
+        <line num="63" count="2" type="stmt"/>
+        <line num="64" count="2" type="stmt"/>
+        <line num="75" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="76" count="1" type="stmt"/>
+        <line num="77" count="1" type="stmt"/>
+        <line num="79" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="80" count="0" type="stmt"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="83" count="1" type="stmt"/>
+        <line num="87" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="88" count="2" type="stmt"/>
+        <line num="89" count="2" type="stmt"/>
+        <line num="91" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="94" count="2" type="stmt"/>
+        <line num="95" count="2" type="stmt"/>
+        <line num="107" count="9" type="stmt"/>
+        <line num="113" count="9" type="cond" truecount="2" falsecount="0"/>
+        <line num="114" count="5" type="stmt"/>
+        <line num="115" count="5" type="stmt"/>
+        <line num="119" count="5" type="stmt"/>
+        <line num="121" count="4" type="stmt"/>
+        <line num="122" count="4" type="stmt"/>
+        <line num="123" count="4" type="stmt"/>
+        <line num="127" count="9" type="stmt"/>
+        <line num="128" count="9" type="stmt"/>
+        <line num="130" count="9" type="stmt"/>
+        <line num="135" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="136" count="2" type="stmt"/>
+        <line num="148" count="2" type="stmt"/>
+        <line num="152" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="153" count="0" type="stmt"/>
+        <line num="155" count="2" type="stmt"/>
+        <line num="167" count="9" type="stmt"/>
+        <line num="172" count="9" type="stmt"/>
+        <line num="173" count="9" type="stmt"/>
+        <line num="174" count="3" type="stmt"/>
+        <line num="175" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="176" count="2" type="stmt"/>
+        <line num="177" count="2" type="stmt"/>
+        <line num="178" count="2" type="stmt"/>
+        <line num="189" count="2" type="stmt"/>
+        <line num="194" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="195" count="0" type="stmt"/>
+        <line num="197" count="2" type="stmt"/>
+        <line num="206" count="9" type="stmt"/>
+        <line num="211" count="9" type="stmt"/>
+        <line num="212" count="9" type="stmt"/>
+        <line num="213" count="3" type="stmt"/>
+        <line num="214" count="2" type="cond" truecount="1" falsecount="1"/>
+        <line num="215" count="2" type="stmt"/>
+        <line num="216" count="2" type="stmt"/>
+        <line num="217" count="2" type="stmt"/>
+        <line num="227" count="1" type="stmt"/>
+        <line num="230" count="11" type="stmt"/>
+        <line num="234" count="9" type="stmt"/>
+        <line num="237" count="5" type="stmt"/>
+        <line num="240" count="5" type="stmt"/>
+        <line num="244" count="2" type="stmt"/>
+        <line num="248" count="0" type="stmt"/>
+        <line num="252" count="11" type="stmt"/>
+        <line num="256" count="25" type="stmt"/>
+        <line num="257" count="25" type="stmt"/>
+        <line num="258" count="25" type="stmt"/>
+      </file>
+    </package>
+    <package name="Comp-2452-project.src.model.Buildings">
+      <metrics statements="42" coveredstatements="38" conditionals="9" coveredconditionals="5" methods="15" coveredmethods="11"/>
+      <file name="building.ts" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\src\model\Buildings\building.ts">
+        <metrics statements="37" coveredstatements="33" conditionals="9" coveredconditionals="5" methods="11" coveredmethods="7"/>
+        <line num="16" count="24" type="cond" truecount="1" falsecount="1"/>
+        <line num="17" count="24" type="cond" truecount="1" falsecount="1"/>
+        <line num="18" count="24" type="cond" truecount="1" falsecount="1"/>
+        <line num="20" count="24" type="stmt"/>
+        <line num="21" count="24" type="stmt"/>
+        <line num="22" count="24" type="stmt"/>
+        <line num="23" count="24" type="stmt"/>
+        <line num="24" count="24" type="stmt"/>
+        <line num="25" count="24" type="stmt"/>
+        <line num="27" count="24" type="stmt"/>
+        <line num="37" count="10" type="stmt"/>
+        <line num="40" count="10" type="stmt"/>
+        <line num="41" count="10" type="stmt"/>
+        <line num="42" count="20" type="stmt"/>
+        <line num="44" count="10" type="stmt"/>
+        <line num="49" count="20" type="stmt"/>
+        <line num="50" count="20" type="stmt"/>
+        <line num="51" count="20" type="stmt"/>
+        <line num="52" count="20" type="stmt"/>
+        <line num="55" count="20" type="cond" truecount="2" falsecount="1"/>
+        <line num="57" count="10" type="stmt"/>
+        <line num="58" count="10" type="stmt"/>
+        <line num="61" count="10" type="stmt"/>
+        <line num="62" count="10" type="stmt"/>
+        <line num="65" count="0" type="stmt"/>
+        <line num="70" count="7" type="stmt"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="78" count="0" type="stmt"/>
+        <line num="82" count="4" type="stmt"/>
+        <line num="86" count="2" type="stmt"/>
+        <line num="90" count="0" type="stmt"/>
+        <line num="98" count="24" type="stmt"/>
+        <line num="99" count="24" type="stmt"/>
+        <line num="100" count="24" type="stmt"/>
+        <line num="101" count="24" type="stmt"/>
+        <line num="102" count="24" type="stmt"/>
+        <line num="103" count="24" type="stmt"/>
+      </file>
+      <file name="gattling.ts" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\src\model\Buildings\gattling.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="12" count="12" type="stmt"/>
+        <line num="16" count="2" type="stmt"/>
+      </file>
+      <file name="helpingHand.ts" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\src\model\Buildings\helpingHand.ts">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="12" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="Comp-2452-project.src.model.Upgrades">
+      <metrics statements="41" coveredstatements="36" conditionals="9" coveredconditionals="5" methods="15" coveredmethods="10"/>
+      <file name="boom.ts" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\src\model\Upgrades\boom.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="8" count="12" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+      </file>
+      <file name="double-tap.ts" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\src\model\Upgrades\double-tap.ts">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="6" count="12" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+      </file>
+      <file name="upgrade.ts" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\src\model\Upgrades\upgrade.ts">
+        <metrics statements="37" coveredstatements="32" conditionals="9" coveredconditionals="5" methods="11" coveredmethods="6"/>
+        <line num="24" count="24" type="cond" truecount="1" falsecount="1"/>
+        <line num="25" count="24" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="24" type="cond" truecount="1" falsecount="1"/>
+        <line num="28" count="24" type="stmt"/>
+        <line num="29" count="24" type="stmt"/>
+        <line num="30" count="24" type="stmt"/>
+        <line num="31" count="24" type="stmt"/>
+        <line num="32" count="24" type="stmt"/>
+        <line num="33" count="24" type="stmt"/>
+        <line num="34" count="24" type="stmt"/>
+        <line num="45" count="10" type="stmt"/>
+        <line num="48" count="10" type="stmt"/>
+        <line num="49" count="10" type="stmt"/>
+        <line num="50" count="20" type="stmt"/>
+        <line num="52" count="10" type="stmt"/>
+        <line num="58" count="20" type="stmt"/>
+        <line num="59" count="20" type="stmt"/>
+        <line num="60" count="20" type="stmt"/>
+        <line num="61" count="20" type="stmt"/>
+        <line num="63" count="20" type="cond" truecount="2" falsecount="1"/>
+        <line num="65" count="10" type="stmt"/>
+        <line num="66" count="10" type="stmt"/>
+        <line num="69" count="10" type="stmt"/>
+        <line num="70" count="10" type="stmt"/>
+        <line num="73" count="0" type="stmt"/>
+        <line num="77" count="7" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="89" count="2" type="stmt"/>
+        <line num="93" count="0" type="stmt"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="103" count="24" type="stmt"/>
+        <line num="104" count="24" type="stmt"/>
+        <line num="105" count="24" type="stmt"/>
+        <line num="106" count="24" type="stmt"/>
+        <line num="107" count="24" type="stmt"/>
+        <line num="108" count="24" type="stmt"/>
+      </file>
+    </package>
+    <package name="Comp-2452-project.src.model.security">
+      <metrics statements="49" coveredstatements="36" conditionals="12" coveredconditionals="10" methods="13" coveredmethods="12"/>
+      <file name="account.ts" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\src\model\security\account.ts">
+        <metrics statements="21" coveredstatements="21" conditionals="10" coveredconditionals="10" methods="4" coveredmethods="4"/>
+        <line num="15" count="12" type="stmt"/>
+        <line num="16" count="12" type="stmt"/>
+        <line num="19" count="12" type="cond" truecount="2" falsecount="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="23" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="39" count="10" type="stmt"/>
+        <line num="44" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="45" count="1" type="stmt"/>
+        <line num="48" count="9" type="stmt"/>
+        <line num="50" count="9" type="stmt"/>
+        <line num="55" count="9" type="stmt"/>
+        <line num="69" count="3" type="stmt"/>
+        <line num="74" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="75" count="1" type="stmt"/>
+        <line num="78" count="2" type="stmt"/>
+        <line num="79" count="2" type="stmt"/>
+        <line num="81" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="82" count="1" type="stmt"/>
+        <line num="85" count="1" type="stmt"/>
+        <line num="90" count="2" type="stmt"/>
+      </file>
+      <file name="database-hash.ts" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\src\model\security\database-hash.ts">
+        <metrics statements="22" coveredstatements="9" conditionals="2" coveredconditionals="0" methods="6" coveredmethods="5"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="12" count="240" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="37" count="5" type="stmt"/>
+        <line num="39" count="5" type="stmt"/>
+        <line num="55" count="5" type="stmt"/>
+        <line num="56" count="5" type="stmt"/>
+        <line num="58" count="5" type="stmt"/>
+        <line num="69" count="5" type="stmt"/>
+        <line num="71" count="5" type="stmt"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="83" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="84" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="88" count="0" type="stmt"/>
+        <line num="89" count="0" type="stmt"/>
+        <line num="91" count="0" type="stmt"/>
+        <line num="102" count="0" type="stmt"/>
+        <line num="104" count="0" type="stmt"/>
+      </file>
+      <file name="test-hash.ts" path="D:\Uni work\Winter 2026\comp 2452\Comp-2452-project\src\model\security\test-hash.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+        <line num="10" count="10" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="13" count="10" type="stmt"/>
+        <line num="14" count="320" type="stmt"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
