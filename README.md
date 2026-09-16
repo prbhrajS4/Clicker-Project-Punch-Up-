@@ -20,21 +20,23 @@ The project combines traditional game development with several software engineer
 
 The project was designed to explore both **software architecture** and **data-driven decision making** within an interactive application.
 
+![Clicker Demo](demo.gif)
+
 ---
 
 ##  Features
 
-* 🖱️ Incremental resource generation
-* 🏢 Purchasable buildings
-* ⬆️ Upgrade system
-* 💾 Persistent game data
-* 👤 User account creation and login
-* 🔐 Secure password storage
-* 🗄️ SQL database integration
-* 🧩 MVC-style architecture
-* 🤖 Automated purchasing system
-* 🧠 Markov-chain-based decision making
-* 📊 Model trained using approximately 2 million labeled gameplay sequences
+*  Incremental resource generation
+*  Purchasable buildings
+*  Upgrade system
+*  Persistent game data
+*  User account creation and login
+*  Secure password storage
+*  SQL database integration
+*  MVC-style architecture
+*  Automated purchasing system
+*  Markov-chain-based decision making
+*  Model trained using approximately 2 million labeled gameplay sequences
 
 ---
 
