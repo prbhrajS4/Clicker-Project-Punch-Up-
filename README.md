@@ -20,7 +20,7 @@ The project combines traditional game development with several software engineer
 
 The project was designed to explore both **software architecture** and **data-driven decision making** within an interactive application.
 
-![Clicker Demo](demo.gif)
+![Clicker Demo](demo.gif.gif)
 
 ---
 
